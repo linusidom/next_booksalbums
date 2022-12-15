@@ -1,0 +1,50 @@
+.nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem;
+    align-items: center;
+    
+}
+
+.navTitle {
+    color: black;
+    width: 100%;
+    
+}
+
+.navTitleText {
+    color: black;
+    font-weight: bold;
+    font-size: 24px;
+    
+}
+
+.navLinks {
+    width: 100%;
+}
+
+.navLinksList {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    
+    
+}
+
+.navLink {
+    list-style: none;
+    font-weight: 400;
+    font-size: 20px;
+    
+    
+}
+
+@media (max-width: 600px) {
+    .navTitleText {
+        font-size: 18px;
+    }
+
+    .navLink {
+        font-size: 12px;;
+    }
+}

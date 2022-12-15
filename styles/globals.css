@@ -1,0 +1,36 @@
+:root {
+  --primary: #D8A16F;
+  --secondary: #D0CDC8;
+  --tertiary: #381B0E;
+
+  --primary-transparent: rgba(216,161,111,0.5);
+  --secondary-transparent: rgba(208,205,200, 0.5);
+  --tertiary-transparent: rgba(56, 27, 14,0.5);
+}
+
+*{
+  margin:0;
+  padding: 0;
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  background: rgb(197, 206, 215);
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+img {
+  width: 100%;
+}
+

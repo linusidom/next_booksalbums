@@ -1,0 +1,40 @@
+.sectionTwo {
+    background-color: var(--tertiary);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 400px;
+}
+
+.albumList {
+    width: 75%;
+    height: 300px;
+    overflow: scroll;
+    padding-right: 2rem;
+}
+
+.albumText {
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    font-weight: bold;
+    color: var(--secondary)
+}
+
+@media (max-width: 600px){
+    .hideOnSmall{
+      display: none;
+    }
+    .albumList {
+        padding: 1rem;
+        width: 100%;
+        font-size: 6px;
+    }
+
+    .sectionTwo {
+        flex-direction: column;
+        justify-content: center;
+    }
+  }

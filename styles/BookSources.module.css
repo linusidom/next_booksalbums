@@ -1,0 +1,41 @@
+.bookSources {
+    display: flex;
+    background-color: black;
+    color: #D0CDC8;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1rem;
+}
+
+.bookSourcesList {
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    min-height: 100px;
+    width: 75%;
+    list-style: none;
+}
+
+.bookSourcesList li {
+    padding: 1rem;
+}
+
+.bookSourcesHeader {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.bookSourcesHeader p {
+    margin: 0;
+}
+
+@media (max-width: 600px) {
+    .bookSourcesList li {
+        font-size: 6px;
+        padding: 0.5rem;
+    }
+    
+    .bookSourcesHeader {
+        font-size: 16px;
+        font-weight: bold;
+    }
+}

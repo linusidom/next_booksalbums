@@ -1,0 +1,41 @@
+.hero {
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--tertiary);
+}
+
+.heroText {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-left: 2rem;
+}
+
+.heroImage{
+    width: 100%;
+}
+
+.heroTitle {
+    font-size: 55px;
+    font-weight: bold;
+    color: var(--secondary);
+}
+
+.heroPara {
+    color: var(--primary);
+}
+
+@media (max-width: 600px){
+    .hero {
+        flex-direction: column;
+        padding-top: 1rem;
+    }
+    .heroImage {
+        padding: 1rem;
+    }
+
+    .heroTitle {
+        font-size: 40px;
+    }
+}
